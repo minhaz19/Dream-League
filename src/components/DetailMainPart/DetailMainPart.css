@@ -1,0 +1,44 @@
+.detail-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(64, 64, 216);
+    border-radius:20px 
+}
+.team-details{
+    padding: 30px 20px;
+    flex: 60%;
+    color: white;
+
+}
+.detail-img{
+    flex: 40%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 7%;
+}
+.team-details h5{
+    font-weight: 500;
+}
+.main-part{
+    width: 80%;
+    margin :auto;
+}
+.main-part p{
+    color: white;
+    font-weight: 400;
+}
+.social-site{
+    text-align: center;
+}
+.social-site img{
+    width: 70px;
+}
+
+@media (max-width: 800px) {
+    .team-details, .detail-img {
+      flex: 100%;
+    }
+  }

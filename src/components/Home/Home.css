@@ -1,0 +1,9 @@
+.HomeStyle{
+    background:rgb(1, 1, 70);
+}
+.teams-style{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
