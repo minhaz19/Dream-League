@@ -14,7 +14,7 @@ const TeamDetails = () => {
         fetch(url)
         .then(res => res.json())
         .then(data =>setTeamDetail(data.teams[0]))
-    },[])
+    },[idTeam])
     return (
         <div className="HomeStyle">
             <div className="header-img">

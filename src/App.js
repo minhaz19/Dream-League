@@ -19,11 +19,11 @@ function App() {
         <Route path="/home">
           <Home></Home>
         </Route>
-        <Route path="/detail/:idTeam">
-            <TeamDetails></TeamDetails>
-        </Route>
         <Route exact path="/">
             <Home></Home>
+        </Route>
+        <Route path="/detail/:idTeam">
+            <TeamDetails></TeamDetails>
         </Route>
         <Route path="*">
             <NoMatch></NoMatch>
