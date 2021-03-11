@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import DetailMainPart from '../DetailMainPart/DetailMainPart';
-import Header from '../Header/Header';
 
 const TeamDetails = () => {
     const {idTeam} = useParams();

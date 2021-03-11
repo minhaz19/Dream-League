@@ -35,9 +35,9 @@ const DetailMainPart = (props) => {
             </div>
             <p>{strDescriptionEN}</p>
             <div className="social-site">
-                <a href={fb} target="_blank"><img src={facebook} alt=""/></a>
-                <a href={tt} target="_blank"><img src={twitter} alt=""/></a>
-                <a href={yt} target="_blank"><img src={youTube} alt=""/></a>
+                <a href={fb} target="_blank" rel="noreferrer"><img src={facebook} alt=""/></a>
+                <a href={tt} target="_blank" rel="noreferrer"><img src={twitter} alt=""/></a>
+                <a href={yt} target="_blank" rel="noreferrer"><img src={youTube} alt=""/></a>
             </div>
         </div>
 
